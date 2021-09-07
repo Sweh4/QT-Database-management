@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1268</width>
+    <height>642</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_6">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>P R I N T E R I</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableView" name="tableView"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>Š T A M P A</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableView" name="tableView_2"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="text">
+            <string>F A K T U R A</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QTableView" name="tableView_3"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QDateEdit" name="dateEdit">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="dateTime">
+            <datetime>
+             <hour>0</hour>
+             <minute>0</minute>
+             <second>0</second>
+             <year>2019</year>
+             <month>1</month>
+             <day>1</day>
+            </datetime>
+           </property>
+           <property name="displayFormat">
+            <string>M.yyyy.</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="text">
+            <string>Next</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>Cijena papira</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>78</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit">
+           <property name="font">
+            <font>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>0.0075</string>
+           </property>
+           <property name="placeholderText">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
